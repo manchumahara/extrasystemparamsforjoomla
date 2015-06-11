@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+	<name>PLG_THEMEBOXR</name>
+	<author>Themeboxr</author>
+	<creationDate>11.06.2015</creationDate>
+	<copyright>Copyright (C) 2015 Themeboxr.com. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@themeboxr.com</authorEmail>
+	<authorUrl>http://themeboxr.com</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_THEMEBOXR_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="themeboxr">themeboxr.php</filename>
+		<folder>language</folder>
+		<folder>params</folder>
+		<folder>fields</folder>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_themeboxr.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_themeboxr.sys.ini</language>
+	</languages>
+</extension>
